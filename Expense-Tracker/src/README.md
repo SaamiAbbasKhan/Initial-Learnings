@@ -22,6 +22,10 @@ such as classes, interfaces, enums, use of records, simple generic concepts like
 3. Navigate to the `src/` folder.
 4. Compile and run the `Main.java` file.
 
+## Project Tag: i1 (Intermediate 1)
+This project is categorized as Intermediate due to the use of more advanced features like enums for categorization and interfaces for general 
+operations. It represents a step up from basic programming, with a more structured design and functionality.
+
 ## Example Usage:
 ```java
 ExpenseTracker expenseTracker = new ExpenseTracker();
