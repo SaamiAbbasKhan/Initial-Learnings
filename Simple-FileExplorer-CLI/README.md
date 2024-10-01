@@ -16,6 +16,7 @@ file handling, exception management, and basic data structures.
   - [Text File Management](#text-file-management)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [Installation](#installation)
+- [Instructions](#instructions)
 - [Facts About the Project](#facts-about-the-project)
 - [Future Improvements](#future-improvements)
 - [Usage](#usage)
@@ -59,6 +60,25 @@ file handling, exception management, and basic data structures.
     ```bash
     java Main
     ```
+
+## Instructions
+To use the CLI File Explorer, follow these commands:
+
+1. **Create a Folder:** Use the command `create` or `generate` folder to generate a new folder.
+2. **Create a Text File:** Use the command `create` or `generate` text for text generation (to create a text file with specified content).
+3. **Delete a Folder:** Use the command `delete folder` for the deletion of a specified folder.
+4. **Delete Text File:** Use the command `delete text`  or `delete <information>` for the deletion of the text (information).
+5. **Switch Folders:** Use the command `switch folder` or `goto folder` for folder switching.
+   - 5.1. Specify the folder name (sub-folder of the current folder).
+   - 5.2. Or specify the index (hierarchical) (could be negative or positive).
+6. **View Current Folder:** Use the command `view folder` for folder viewing.
+7. **View Text File:** Use the command `view text` or `view information` for viewing the text.
+8. **View All Information:** Use the command `view all` to view all the folder-related information.
+9. **View Hierarchy:** Use the command `view hierarchy` to view the hierarchy (i.e., the relation between folders). Alternatively, you can type `drives`.
+10. **Sort Folders:** Use the command `sort folder` to sort the sub-folders inside the parent folder.
+11. **Exit Program:** Use the command `exit` to quit the program.
+
+__In all the above steps, you will be prompted to enter the folder or text name.__
 
 ## Facts About the Project
 - **Single Parent Storage:** The explorer only adds the parent folder to memory once, even if you navigate through multiple subfolders.
