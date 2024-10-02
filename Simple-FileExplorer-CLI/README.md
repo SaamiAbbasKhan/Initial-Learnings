@@ -103,4 +103,4 @@ To use this application, clone the repository and run the Java application in yo
 Feel free to explore and contribute to this project. Your feedback is invaluable for future improvements, and I'd love to hear your thoughts on how to make this CLI File Explorer better!
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
